@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+
+.title {
+  font-size: 4.5vw;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 1.8vw;
+  letter-spacing: 0.08vw;
+
+  padding-bottom: 3vw;
+}
+
+.names {
+  font-size: 1.3vw;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.11vw;
+  margin-bottom: 1vw;
+  width: 40%;
+}
+
+.button {
+  text-align: center;
+  font-size: 1.3vw;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  border-radius: 20vw;
+  background-color: #c02121;
+  color: white;
+  width: 44vw;
+  height: 2vw;
+  margin-top: 1vw;
+}
+
+/* 2-col Layout */
+
+.gridvid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+.article {
+  padding: 0em;
+  margin: 0;
+  width: 92%;
+  height: 69%;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2.5vw;
+  padding: 0;
+  margin: 0;
+  border: 5px solid black;
+}
+
+@media (max-width: 900px) {
+  .gridvid {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  .title {
+    font-size: 9.3vw;
+    margin-top: 4vw;
+    letter-spacing: 0.08vw;
+
+    margin-bottom: 1.2vw;
+  }
+
+  .article {
+    width: 90%;
+    height: 75%;
+  }
+
+  .names {
+    font-size: 3vw;
+    letter-spacing: 0.11vw;
+    width: 40%;
+  }
+
+  .button {
+    font-size: 4vw;
+    border: none;
+    border-radius: 20vw;
+    background-color: #c02121;
+    color: white;
+    width: 99%;
+    height: 5.5vw;
+    margin-top: 2vw;
+  }
+}

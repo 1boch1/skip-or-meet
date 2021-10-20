@@ -1,0 +1,30 @@
+{
+  "name": "skip-or-meet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1boch1/skip-or-meet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1boch1/skip-or-meet/issues"
+  },
+  "homepage": "https://github.com/1boch1/skip-or-meet#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "peer": "^0.6.1",
+    "socket.io": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}
