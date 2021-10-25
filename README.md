@@ -1,10 +1,9 @@
 # Skip Or Meet
-
-Video chat application that allows you to meet new friends.
+Video chat application where you can meet new friends
 
 ## Libraries
 
-- [React](https://it.reactjs.org/)
+- [React.js](https://it.reactjs.org/)
 - [PeerJS ](https://peerjs.com/)
 - [Express](https://expressjs.com/)
 - [Socket.io](https://socket.io/)
