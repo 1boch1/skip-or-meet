@@ -2,7 +2,7 @@
 
 Video chat application that allows you to meet new friends.
 
-This project was made with: 
+## Libraries
 
 - [React](https://it.reactjs.org/)
 - [PeerJS ](https://peerjs.com/)
@@ -40,7 +40,7 @@ This project was made with:
 
 
 
-## Project flow
+## Explanation
 
 - The client opens the website and connects to the Express server
 
